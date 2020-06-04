@@ -1,0 +1,30 @@
+<!DOCTTYPE HTML5>
+<html>
+
+  <head><title>Email Health Checker</title>
+    <meta charset="utf-8"/>
+  <script src="ehc.js"></script>
+<link rel="stylesheet" type="text/css" href="ehc.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+</head>
+<body onload="getStarted()">
+  <div id="wrapper">
+    <div id="divMenu" class="sidenav">
+      <a href="#mAbout" onclick="mAbout()">About</a>
+      <a href="#mMyEmail" onclick="mEditEmail()">My Email</a>            
+      <a href="#mHealthProfile" onclick="mEditProfile()">Health Check Options</a>
+      <a href="#mUploadFile" onclick="mUploadFile()">Health Check ESA config</a>
+      <a href="#mCreateDatabase" onclick="mCreateDatabase()">Create Database</a>
+    </div>
+    <div id="divContent" class="main">
+      <div id="divLabrats"><img src="labrats.png" height="85%"></div>
+      <div id="divUserInfo"></div>
+      <div id="divRetCode"></div>
+      <div id="divChild" class="container"></div>
+    </div>
+  </div>
+</body>
+</html>
