@@ -1,0 +1,14 @@
+Email Health Checker
+--------------------
+by Christoper van der Made and Hakan Nohre
+Tech advisors: Tobias Mayer and Abdalla Taha
+
+PROTOTYPE version that takes as input the configuration of Cisco ESA (Email Security Appliance) and
+checks configuration according to best practices.
+
+To install:
+
+1. On a system with docker and cocker compose installed, create a directory with the docker-compose.yml file.
+2. docker-compose up
+
+
